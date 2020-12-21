@@ -1,0 +1,168 @@
+/*html elements*/
+body {
+  font-family: "Montserrat";
+}
+
+h1 {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h1, h2, h3 {
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/*refactoring selectors*/
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.bg-colored {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+/*title section*/
+.main {
+  padding: 3% 15% 7%;
+}
+
+/*navbar*/
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.con-title {
+  padding: 0;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+/*download bottons*/
+.dw-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/*image section*/
+.cl-img {
+  position: relative;
+}
+
+.title-img {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/*features section*/
+#features {
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.ftr-icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.ftr-icon:hover {
+  color: #ff4c68;
+}
+
+.feature-title {
+  font-size: 1.2rem;
+}
+
+/*testimonials section*/
+#testimonials
+{
+  background-color: #ef8172;
+}
+.tst-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/*pricing section*/
+#pricing {
+  padding: 100px;
+}
+
+.pr-col {
+  padding: 3% 2%;
+}
+
+.price-h {
+  font-size: 2.5rem;
+}
+
+.pr-des {
+  color: #8f8f8f;
+}
+
+/*footer part*/
+#footer {
+  padding: 3% 15%;
+}
+
+.social {
+  color: #000;
+  margin: 20px 10px 30px;
+  cursor: pointer;
+}
+
+.social:hover {
+  color: #908181;
+}
+
+/*Responsive part*/
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
